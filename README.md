@@ -1,24 +1,7 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+run bundle
+run bundle exec warble
+copy war file inside tomcat9
+extract contents or allow tomcat to extract
+add line to META-INF/init.rb
+  Gem.paths = ENV before line require 'bundler/shared_helpers'
+restart tomcat
